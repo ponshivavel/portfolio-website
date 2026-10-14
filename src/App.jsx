@@ -70,7 +70,7 @@ export default function App() {
   }, [])
 
   return (
-<BrowserRouter basename="/ponshivavel-portfolio">
+<BrowserRouter basename="/portfolio-website">
       <AnimatePresence>
         {loading && <LoadingScreen key="loader" />}
       </AnimatePresence>
